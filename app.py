@@ -14,7 +14,7 @@ from flask import Flask, jsonify
 
 # Database Setup
 
-engine = create_engine('sqlite:///Homework/Resources/hawaii.sqlite', connect_args={'check_same_thread': False}, echo=True)
+engine = create_engine('sqlite:///Resources/hawaii.sqlite', connect_args={'check_same_thread': False}, echo=True)
 
 
 
